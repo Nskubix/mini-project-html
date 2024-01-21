@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgb(228, 243, 241);
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    margin: 1rem;
+    width: 90vw;
+    height: 160vh;
+    background-image: url(img/bg.png);
+    .topbar{
+        .toplink{
+            color: rgba(211, 211, 211,0.6);
+            font-size: 0.3em;
+            text-decoration: none;
+            text-align: center;
+            
+            font-weight:300;
+        }
+        a:hover{
+            color: rgba(230, 230, 230,0.91);
+        }
+        #prospire{
+            font-weight: 450;
+            color: rgba(230, 230, 230,1);
+            font-size: 0.4em;
+            margin-left: 6%;
+            margin-right: 17vw; 
+        }
+    }
+    .line{
+        margin-left: 5%;
+        margin-right: 5%;
+        opacity: 0.1;
+        border-color: rgb(70, 70, 70);
+    }
+   
+    .crafting-div{
+        margin-left: 5%;
+        #crafting-text{
+            color: rgba(240, 240, 240,1);
+            font-size: 1.25em;
+            font-weight: bold;
+            margin-top: 7%;
+            
+            width: 15ch;
+            line-height: 1em;
+        }
+        #crafting-subtext{
+            margin-top: 0;
+            font-size: 0.34em;
+            font-weight: normal;
+            color: rgba(20, 20, 20,1);
+            width: 38ch;
+        }
+        
+    }
+    .our-div{
+        margin-left: 5%;
+        #our-vision{
+            font-size: 0.4em;
+        }
+        #our-text{
+            color: rgba(20, 20, 20,1);
+            font-size: 0.9em;
+            font-weight: bolder;
+            margin-top: 7%;
+            width: 25ch;
+            line-height: 1em;
+        }
+        #our-subtext{
+            margin-top: 0;
+            font-size: 0.35em;
+            font-weight: normal;
+            color: rgba(20, 20, 20,1);
+            width: 53ch;
+        }
+    }
+    .services-div{
+        margin-left: 5%;
+        .line{
+            margin-left: 0;
+        }
+        #our-services{
+            font-size: 0.4em;
+        }
+        #transparency100{
+            font-size: 1em;
+            font-weight: bolder;
+            margin-top: 3%;
+            margin-bottom: 1%;
+            color: rgba(20, 20, 20,1);
+        }
+        #transparency80{
+            font-size: 1em;
+            font-weight: bolder;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            color: rgba(20, 20, 20,0.8);
+        }
+        #transparency60{
+            font-size: 1em;
+            font-weight: bolder;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            color: rgba(20, 20, 20,0.6);
+        }
+        #transparency40{
+            font-size: 1em;
+            font-weight: bolder;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            color: rgba(20, 20, 20,0.4);
+        }
+        #transparency20{
+            font-size: 1em;
+            font-weight: bolder;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            color: rgba(20, 20, 20,0.2);
+        }
+        
+    }
+    .prospire-big{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    .footer{
+        margin-left: 5%;
+        .toplink{
+            color: rgba(30, 30, 30,0.8);
+            font-size: 0.25em;
+            text-decoration: none;
+            text-align: center;
+            font-weight:bold;
+        }
+        a:hover{
+            color: rgba(30, 30, 30,0.5);
+        }
+    }
+}
